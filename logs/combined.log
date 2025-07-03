@@ -462,3 +462,37 @@ Use mongoose.model(name, schema)
 [2025-07-03 16:43:09] INFO: mongoDB connected
 [2025-07-03 16:53:17] INFO: server is running on port 5000
 [2025-07-03 16:53:18] INFO: mongoDB connected
+[2025-07-03 16:53:30] INFO: server is running on port 5000
+[2025-07-03 16:53:31] INFO: mongoDB connected
+[2025-07-03 17:05:51] INFO: GET /api/blog
+[2025-07-03 17:17:00] INFO: GET /api/blog
+[2025-07-03 17:17:18] INFO: POST /api/auth/login
+[2025-07-03 17:17:19] INFO: GET /api/blog
+[2025-07-03 17:17:19] INFO: GET /api/blog
+[2025-07-03 17:17:25] INFO: GET /api/blog
+[2025-07-03 17:17:34] INFO: GET /api/blog
+[2025-07-03 17:17:41] INFO: POST /api/auth/login
+[2025-07-03 17:17:41] INFO: GET /api/blog
+[2025-07-03 17:17:42] INFO: GET /api/blog
+[2025-07-03 17:19:14] INFO: GET /api/blog
+[2025-07-03 17:19:31] INFO: GET /api/blog
+[2025-07-03 17:19:35] INFO: POST /api/auth/login
+[2025-07-03 17:19:35] INFO: GET /api/blog
+[2025-07-03 17:19:35] INFO: GET /api/blog
+[2025-07-03 17:22:43] INFO: GET /api/blog
+[2025-07-03 17:23:10] INFO: GET /api/blog
+[2025-07-03 17:23:24] INFO: GET /api/blog
+[2025-07-03 17:23:24] INFO: GET /api/blog
+[2025-07-03 17:24:08] INFO: GET /api/blog
+[2025-07-03 17:24:14] INFO: POST /api/auth/login
+[2025-07-03 17:24:15] INFO: GET /api/blog
+[2025-07-03 17:24:15] INFO: GET /api/blog
+[2025-07-03 17:24:29] INFO: GET /api/blog
+[2025-07-03 17:24:41] INFO: GET /api/blog
+[2025-07-03 17:27:57] INFO: POST /api/auth/login
+[2025-07-03 17:27:57] INFO: GET /api/blog
+[2025-07-03 17:27:57] INFO: GET /api/blog
+[2025-07-03 17:28:06] INFO: DELETE /api/blog/686620c55fccda4bd1b4d950
+[2025-07-03 17:28:07] INFO: GET /api/blog
+[2025-07-03 18:56:59] INFO: server is running on port 5000
+[2025-07-03 18:57:00] INFO: mongoDB connected
