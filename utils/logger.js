@@ -1,4 +1,22 @@
 const { createLogger, format, transports } = require("winston");
+const fs = require("fs");
+const path = require("path");
+
+const isProd = process.env.NODE_ENV === "production";
+const logDir = path.join(__dirname, "../logs");
+
+const loggerTransports = [new transports.Console()];
+
+if (!isProd) {
+  if (!fs.existsSync(logDir)) {
+    fs.mkdirSync(logDir);
+  }
+
+  loggerTransports.push(
+    new transports.File({ filename: path.join(logDir, "error.log"), level: "error" }),
+    new transports.File({ filename: path.join(logDir, "combined.log") })
+  );
+}
 
 const logger = createLogger({
   level: "info",
@@ -8,11 +26,7 @@ const logger = createLogger({
       return `[${timestamp}] ${level.toUpperCase()}: ${message}`;
     })
   ),
-  transports: [
-    new transports.Console(),
-    new transports.File({ filename: "logs/error.log", level: "error" }),
-    new transports.File({ filename: "logs/combined.log" }),
-  ],
+  transports: loggerTransports,
 });
 
 module.exports = logger;
