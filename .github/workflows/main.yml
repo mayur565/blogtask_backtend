@@ -1,0 +1,29 @@
+name: Deploy Node.js to Vercel
+
+on:
+  push:
+    branches:
+      - main  # Trigger on push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Deploy to Vercel
+      run: |
+        curl -fsSL https://vercel.com/download -o vercel-cli-linux-x64.tar.gz
+        tar -xzf vercel-cli-linux-x64.tar.gz
+        sudo mv vercel /usr/local/bin/
+        vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
