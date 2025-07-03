@@ -34,4 +34,8 @@ router.post("/login", loginLimiter, loginValidation, (req, res, next) => {
 
 router.post("/profile", authenticate, profile);
 
+router.get("/check-helth", (req, res) => {
+  res.send("server is running")
+});
+
 module.exports = router;
