@@ -428,3 +428,22 @@ Use mongoose.model(name, schema)
 [2025-07-03 15:07:58] INFO: GET /favicon.ico
 [2025-07-03 15:23:26] INFO: server is running on port 5000
 [2025-07-03 15:23:26] ERROR: querySrv ECONNREFUSED _mongodb._tcp.cluster0.kecmcz2.mongodb.net
+[2025-07-03 15:26:13] INFO: server is running on port 5000
+[2025-07-03 15:26:14] INFO: mongoDB connected
+[2025-07-03 15:26:27] INFO: GET /api/auth/check-helth
+[2025-07-03 15:38:10] INFO: GET /api/auth/check-helth
+[2025-07-03 15:48:58] INFO: server is running on port 5000
+[2025-07-03 15:48:58] INFO: mongoDB connected
+[2025-07-03 15:49:08] INFO: server is running on port 5000
+[2025-07-03 15:49:08] INFO: mongoDB connected
+[2025-07-03 15:50:21] INFO: server is running on port 5000
+[2025-07-03 15:50:21] INFO: mongoDB connected
+[2025-07-03 15:50:23] INFO: server is running on port 5000
+[2025-07-03 15:50:23] INFO: mongoDB connected
+[2025-07-03 15:50:44] INFO: server is running on port 5000
+[2025-07-03 15:50:44] INFO: mongoDB connected
+[2025-07-03 15:50:51] INFO: server is running on port 5000
+[2025-07-03 15:50:52] INFO: mongoDB connected
+[2025-07-03 15:51:05] INFO: server is running on port 5000
+[2025-07-03 15:51:05] INFO: mongoDB connected
+[2025-07-03 15:55:26] INFO: mongoDB connected
